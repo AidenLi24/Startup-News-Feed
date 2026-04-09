@@ -1,0 +1,18 @@
+# Cache files
+cache.json
+cache_websearch.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store

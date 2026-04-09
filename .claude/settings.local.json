@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(grep -o https?://[a-zA-Z0-9][a-zA-Z0-9-]*.[a-zA-Z0-9][a-zA-Z0-9-.]*[a-zA-Z0-9] /Users/aidenli/.claude/projects/-Users-aidenli-Desktop-Startup-News-Feed/db0780ae-329d-4ae1-b42a-eeeb0087a392.jsonl)",
+      "Bash(grep -oE https?://[^\"\"]+ /Users/aidenli/.claude/projects/-Users-aidenli-Desktop-Startup-News-Feed/db0780ae-329d-4ae1-b42a-eeeb0087a392.jsonl)",
+      "Bash(grep -v 'localhost\\\\|127.0.0.1\\\\|example.com\\\\|{port}\\\\|{domain}\\\\|\\\\$')",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)"
+    ]
+  }
+}
